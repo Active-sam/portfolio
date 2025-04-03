@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>My Portfolio</title>
+    <link rel='stylesheet' href="css/styles.css">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+    <nav>
+      <h2>My_Portfolio</h2>
+      <ul class="main-ul">
+        <li class="cancel"><i class="fa-solid fa-xmark"></i></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact me</a></li>
+        <li class="resume-li resumeBtn"><a href="#"><button>Resume</button></a></li>
+      </ul>
+
+      <div class="mobile">
+        <ul>
+          <li class="resumeBtn"><a href="#contact"><button>Resume</button></a></li>
+          <li class="bar"><i id="bar" class="fas fa-outdent"></i></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="main">
+        <div class="intro">
+          <span>Hello, I am</span>
+          <h1>Kamau Samwel</h1>
+          <p>
+            A software engineering student passionate about building exceptional ,digital experiences. Currently focused on expanding my knowledge in full-stack development.
+          </p>
+          <div class="media">
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="img-cont">
+          <img src="images/download7.png" alt="profilr-pic" class="profile-pic">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="main">
+        <div class="div">
+          <img src="images/NotIdealSticker.png" alt="about pic" class="about-pic">
+        </div>
+        <div class="div">
+          <div class="aboutMe">
+            <h2>About Me</h2>
+            <p class="about-me">I am a dedicated software engineering student specializing in full-stack web development, with a strong proficiency in technologies such as HTML, CSS, JavaScript, Node.js, Python, and SQL. My academic journey has equipped me with the knowledge and skills necessary to design, develop, and optimize responsive websites, build robust APIs, and create interactive, user-friendly applications. I am passionate about problem-solving, continually enhancing my coding abilities, and staying updated with the latest industry trends to deliver high-quality and efficient solutions that meet both functional and aesthetic needs.</p> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Technical skills</h2>
+      <div class="main">
+        <div class="skills-cont">
+          <div class="main-skills-cont">
+            <div class="skill">
+              <span class="skill-name"><i class="fa-brands fa-html5"></i>Html</span>
+              <div class="progress-bar">
+                  <div class="progress" style="width: 90%"></div>
+              </div>
+              <span class="skill-percentage">90%</span>
+            </div>
+            <div class="skill">
+              <span class="skill-name"><i class="fa-brands fa-css3"></i>Css</span>
+              <div class="progress-bar">
+                  <div class="progress" style="width: 70%"></div>
+              </div>
+              <span class="skill-percentage">70%</span>
+            </div>
+            <div class="skill">
+              <span class="skill-name"><i class="fa-brands fa-js"></i>Javascript</span>
+              <div class="progress-bar">
+                  <div class="progress" style="width: 60%"></div>
+              </div>
+              <span class="skill-percentage">60%</span>
+            </div>
+            <div class="skill">
+              <span class="skill-name"><i class="fa-solid fa-server"></i>Node</span>
+              <div class="progress-bar">
+                  <div class="progress" style="width: 60%"></div>
+              </div>
+              <span class="skill-percentage">60%</span>
+            </div>
+            <div class="skill">
+              <span class="skill-name"><i class="fa-brands fa-python"></i>Python</span>
+              <div class="progress-bar">
+                  <div class="progress" style="width: 20%"></div>
+              </div>
+              <span class="skill-percentage">20%</span>
+            </div>
+            <div class="skill">
+              <span class="skill-name"><i class="fa-solid fa-database"></i>Sql</span>
+              <div class="progress-bar">
+                  <div class="progress" style="width: 20%"></div>
+              </div>
+              <span class="skill-percentage">20%</span>
+            </div>
+          </div>
+          <div class="other-skills">
+            <h3>Other Skills</h3>
+            <div>
+              <p>Git</p>
+              <p>Figma</p>
+              <p>Docker</p>
+              <p>Git</p>
+              <p>Git</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="images/DownloaastronautWorkingAsaprogrammer.png" alt="skill image" class="skills-img">
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="main">
+        <div class="title">
+          <h2>Get in Touch</h2>
+          <p>Feel free to contact me for any project inquiries or just to say hello!</p>
+        </div>
+        <form action="#">
+          <h3>Send a Message</h3>
+          <div>
+            <span>Name</span>
+            <input type="text" placeholder="Your name" required>
+          </div>
+          <div>
+            <span>Email</span>
+            <input type="text" placeholder="Your.email@gmail.com" required>
+          </div>
+          <div>
+            <span>Message</span>
+            <textarea class="message" rows="4" placeholder="Your Message" required></textarea>
+          </div>
+          <button>Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="me-cont">
+      <div class="me">
+        <div><i class="fa-solid fa-laptop-code"></i> Kamau Samwel</div>
+        <h3>Student Software Engineer</h3>
+      </div>
+
+      <div class="media">
+        <ul>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+      </div>
+      <div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Kamau Samwel. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
