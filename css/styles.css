@@ -694,7 +694,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 100vh;
+    height: 130vh;
     padding: 0 0px;
     margin-top: 50px;
   }
@@ -723,7 +723,7 @@ footer {
 
   /* me section */
   .me-cont {
-    height: 25vh;
+    height: 20vh;
     margin-top: 30px;
     padding: 20px 0px;
     flex-direction: column;
